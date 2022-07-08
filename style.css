@@ -7,9 +7,37 @@ html {
   font-size: 62.5%;
 }
 body {
-    font-family: "Poppins", sans-serif;
-    background-image: url(images/Banner.jpg);
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
+  font-family: "Poppins", sans-serif;
+  background-image: url(images/Phone-BG/MOON.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.title-container {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+.title {
+  white-space: nowrap;
+  background-color: rgba(249, 255, 244, 0.404);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(images/Desktop-BG/Banner.jpg);
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  body {
+    background-image: url(images/Desktop-BG/Banner.jpg);
+  }
+  .title-container {
+    margin-top: 20px;
+  }
 }
