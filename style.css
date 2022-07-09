@@ -27,7 +27,7 @@ body {
   background-color: rgba(249, 255, 244, 0.404);
   display: inline-block;
   border-radius: 10px;
-  padding: 2px;
+  padding: 6px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -67,9 +67,10 @@ body {
   flex-direction: column;
 }
 .question-body {
+  padding: 10px;
   border: 1px solid rgba(255, 0, 0, 0.558);
   font-weight: bold;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   font-size: 2rem;
   height: 10%;
   margin: 10px;
@@ -153,7 +154,11 @@ li > input {
     font-size: 4rem;
   }
   .options > li {
-    margin-top: 50px;
-    margin-bottom: 53px;
+    margin-top: 30px;
+    margin-bottom: 43px;
   }
 }
+ul li label {
+  cursor: pointer;
+}
+
