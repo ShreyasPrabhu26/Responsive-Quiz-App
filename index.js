@@ -106,6 +106,10 @@ submitBtn.addEventListener("click", () => {
         }
         else {
             alert(`Your Score is ${score} out of ${quizData.length} questions`);
+            submitBtn.innerText="Reload Quiz";
+            submitBtn.addEventListener("click",function(){
+                location.reload();
+            })
         }
     }
 })
